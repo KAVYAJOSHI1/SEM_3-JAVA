@@ -9,5 +9,5 @@ public class string2 {
             buffer.append("World");
         }
         System.out.println("Time taken by string buffer: " + (System.currentTimeMillis() - start) + " ms");
-    }
+    }   
 }
