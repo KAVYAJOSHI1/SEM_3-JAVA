@@ -1,19 +1,35 @@
-/*5. Write a Java program to demonstrate garbage collection by creating a class Example with a
+/*5. Write a Java program to demonstrate garbage collection by creating a class a5 with a
 finalize method that prints a message when the object is garbage collected. Create and nullify an
-instance of Example to trigger garbage collection.*/
-import java.util.*;
-public class a5
-{
-
-
-    ~a5()
-    {
-        System.out.println("Object is garbage collected");
+instance of a5 to trigger garbage collection.*/
+public class a5 {
+    // Constructor
+    public a5() {
+        System.out.println("a5 object created");
     }
-    public static void main(String args[])
-    {
-        a5 obj=new a5();
-        obj=null;
 
+    // Override finalize method to display a message when the object is garbage collected
+    @Override
+    protected void finalize() {
+        System.out.println("a5 object is being garbage collected");
+    }
+
+    public static void main(String[] args) {
+        // Create an instance of a5
+        a5 obj = new obj();
+
+        // Nullify the reference to the a5 object
+        obj = null;
+
+        // Suggest to the JVM to run the garbage collector
+        System.gc();
+
+        // Pause the program for a short while to allow time for garbage collection to occur
+        try {
+            Thread.sleep(1000);
+        } catch (InterruptedException e) {
+            // Do nothing
+        }
+
+        System.out.println("End of main method");
     }
 }
