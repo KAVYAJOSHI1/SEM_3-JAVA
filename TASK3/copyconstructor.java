@@ -7,10 +7,15 @@ public class copyconstructor
         a=x;
         
     }
+    copyconstructor(copyconstructor copy)
+    {
+        a=copy.x;
+    }
     void display()
     {
         System.out.println("VALUE OF A IS:"+ a);
     }
+
 
     public static void main(String args[])
     {
