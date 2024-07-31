@@ -15,7 +15,7 @@ public class a5 {
 
     public static void main(String[] args) {
         // Create an instance of a5
-        a5 obj = new obj();
+        a5 obj = new a5();
 
         // Nullify the reference to the a5 object
         obj = null;
