@@ -9,7 +9,7 @@ public class copyconstructor
     }
     copyconstructor(copyconstructor copy)
     {
-        a=copy.x;
+        a=copy.a;
     }
     void display()
     {
@@ -23,6 +23,8 @@ public class copyconstructor
         obj.display();
         copyconstructor obj1=new copyconstructor(obj);
         obj1.display();
+        
+
 
     }
 }
