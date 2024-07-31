@@ -4,9 +4,16 @@ public class garbagecollection{
     {
         System.out.println("OBJECT IS CREATED");
     }
+    protected void finalize()
+    {
+        System.out.println("IT IS BEING GARBAGED");
+    }
     public static void main(String args[])
     {
-        garbagecollection obj=new 
+        garbagecollection obj=new garbagecollection();
+        obj=null;
+        System.gc();
+
     }
 
 }
