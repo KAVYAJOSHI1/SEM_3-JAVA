@@ -24,11 +24,7 @@ public class a5 {
         System.gc();
 
         // Pause the program for a short while to allow time for garbage collection to occur
-        try {
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            // Do nothing
-        }
+        
 
         System.out.println("End of main method");
     }

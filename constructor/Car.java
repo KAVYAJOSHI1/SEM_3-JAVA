@@ -13,10 +13,10 @@ public class Car{
         model="Swift";
         year=2018;
     }
-    Car(String make,String model,int year){
-        this.make=make;
-        this.model=model;
-        this.year=year;
+    Car(String a,String b,int c){
+        this.make=a;
+        this.model=b;
+        this.year=c;
     }
     void display(){
         System.out.println("Make:"+make);
