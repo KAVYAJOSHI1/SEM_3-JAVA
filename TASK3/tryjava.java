@@ -10,8 +10,10 @@ public class tryjava
         int b=s.nextInt();
         int c=a/b;
         int d=a*b;
-        int 
-        System.out.println("SUM IS:"+c);
+        int e=a+b;
+        System.out.println("PRODUCT IS:"+d);
+        System.out.println("SUM IS:"+d);
+        System.out.println("SUM IS:"+e);
         }
         catch(ArithmeticException e)
         {
