@@ -9,15 +9,15 @@ public class tryjava
         int a=s.nextInt();
         int b=s.nextInt();
         int c=a/b;
+        int d=a*b;
+        int 
         System.out.println("SUM IS:"+c);
         }
         catch(ArithmeticException e)
         {
             System.out.println("INVALID DIVISION");
         }
-        finally{
-            s.close();
+        
         }
 
     }
-}
