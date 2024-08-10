@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 // Define a Student class to hold the student's details
-class Student {
+class grade {
     String name;
     int rollNo;
     double grade;
