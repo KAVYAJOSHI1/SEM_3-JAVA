@@ -1,9 +1,9 @@
 import java.util.*;
-public class Application
+public class Appliance
 {
-    String brand;
-    int power;
-    Application(String a,int b)
+    protected String brand;
+    protected  int power;
+    Appliance(String a,int b)
     {
         brand=a;
         power =b;
