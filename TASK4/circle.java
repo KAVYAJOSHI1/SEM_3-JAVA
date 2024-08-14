@@ -1,10 +1,18 @@
-import java.util.*;
-public class circle
+
+public class circle extends shape
 {
-    
+    circle(int radius)
+    {
+    super(radius,radius);
+    }
+    void display()
+    {
+        super.display();
+    }
     public static void main(String args[])
     {
-        super.shape(4,5)
-        super.area();
+       
+        circle obj=new circle(4);
+        obj.display();
     }
 }

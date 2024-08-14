@@ -1,20 +1,20 @@
 import java.util.*;
 public class shape
 {
-    int a;
-    int b;
+    protected int a;
+    protected int b;
     shape(int l,int B)
     {
         a=l;
         b=B;
     }
-    void area()
+    int area()
     {
         return a*b;
     }
     void display()
     {
-        System.out.println("THE AREA IS: "+ area())
+        System.out.println("THE AREA IS: "+ area());
     }
    
 
