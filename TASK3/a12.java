@@ -80,9 +80,6 @@ class a12 {
         System.out.println("Year: " + year);
         System.out.println("Price: $" + price);
     }
-}
-
-// Main Class
 
     public static void main(String[] args) {
         // Using default constructor
@@ -104,4 +101,6 @@ class a12 {
         a12 vehicle4 = new a12("Ford", "Mustang", 2021, 55000.0);
         vehicle4.displayDetails();
     }
+}
+
 

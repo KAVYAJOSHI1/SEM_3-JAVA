@@ -2,19 +2,14 @@
 throws an exception (e.g., IOException) and invoking this method in the main method.   */
 import java.io.IOException;
 
-public class a10{
+import java.io.IOException;
 
-    // Method that throws an IOException
-    public static void throwIOException() throws IOException {
-        System.out.println("Inside throwIOException method.");
-        // Simulating an exception
-        throw new IOException("This is an IOException.");
+public class a10 {
+   public static void main(String[] args) {
+        methodThatThrowsException();
     }
 
-    public static void main(String[] args) throws IOException {
-        System.out.println("Starting main method.");
-        // Invoking the method that throws an IOException
-        throwIOException();
-        System.out.println("End of main method.");
+    public static void methodThatThrowsException() throws IOException {
+        throw new IOException("This is an exception");
     }
 }
