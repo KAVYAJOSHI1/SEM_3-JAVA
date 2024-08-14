@@ -1,8 +1,8 @@
 import java.util.*;
 public class vehicle
 {
-    int make;
-    int model;
+    protected int make;
+    protected int model;
     vehicle(int a,int b)
     {
         make=a;
