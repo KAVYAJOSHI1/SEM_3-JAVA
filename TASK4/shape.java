@@ -12,6 +12,10 @@ public class shape
     {
         return a*b;
     }
+    void display()
+    {
+        System.out.println("THE AREA IS: "+ area())
+    }
    
 
 }
