@@ -1,8 +1,8 @@
 import java.util.*;
 public class bankaccount
 {
-    int accountno;
-    int balance;
+    protected int accountno;
+    protected int balance;
     bankaccount(int a,int b)
     {
         accountno=a;
