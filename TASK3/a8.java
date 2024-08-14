@@ -22,5 +22,9 @@ public class a8
         {
             System.out.println("Number format exception");
         }
+        catch(InputMismatchException e)
+        {
+            System.out.println("Input mismatch exception");
+        }
     }
 }
