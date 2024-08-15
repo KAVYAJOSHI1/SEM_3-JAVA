@@ -1,7 +1,7 @@
 import java.util.*;
 public class Animal
 {
-    String sound;
+    protected String sound;
     Animal(Sting a)
     {
         sound=a;
