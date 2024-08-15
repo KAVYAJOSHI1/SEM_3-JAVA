@@ -6,6 +6,10 @@ public class rectangle1 extends shape1
     }
     public static void main(String args[])
     {
-      draw();
+      shape1 obj;
+      obj=new circle1();
+      obj.draw();
+      obj=new rectangle1();
+      obj.draw();
     }
 } 
