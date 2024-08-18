@@ -3,7 +3,7 @@ public class Animal1
 {
     protected String species;
     protected int age;
-    Animal(String a,int b)
+    Animal1(String a,int b)
     {
         species=a;
         age=b;
