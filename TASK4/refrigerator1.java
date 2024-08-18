@@ -4,4 +4,8 @@ public class refregerator1 extends appliance1
     {
         super.(a,b);
     }
+    display()
+    {
+        super.display();
+    }
 }
