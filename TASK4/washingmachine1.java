@@ -1,11 +1,5 @@
-public class washingmachine1 extends appliance1
+interface washingmachine1 
 {
-    washingmachine1(String a,int b)
-    {
-        super.(a,b);
-    }
-    display()
-    {
-        super.display();
-    }
+    
+   
 }
