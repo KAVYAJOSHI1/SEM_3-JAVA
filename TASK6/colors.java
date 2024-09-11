@@ -11,5 +11,11 @@ public class colors
 
         list.add(1,"BROWN");
         System.out.println(list);
+
+        list.remove("GREEN");
+        System.out.println(list);
+
+        list.clear();
+        System.out.println(list);
     }
 }
