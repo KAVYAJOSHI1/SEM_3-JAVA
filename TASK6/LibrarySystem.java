@@ -36,21 +36,6 @@ public class LibrarySystem {
         public void setAvailable(boolean available) {
             isAvailable = available;
         }
-
-        @Override
-        public boolean equals(Object obj) {
-            if (this == obj)
-                return true;
-            if (obj == null || getClass() != obj.getClass())
-                return false;
-            Book book = (Book) obj;
-            return isbn.equals(book.isbn);
-        }
-
-        @Override
-        public int hashCode() {
-            return isbn.hashCode();
-        }
     }
 
     // Library class
