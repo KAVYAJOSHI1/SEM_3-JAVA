@@ -33,8 +33,8 @@ public class Order {
 
         // Display all orders in the queue
         System.out.println("All orders in the queue:");
-        for (Order order : orderQueue) {
-            System.out.println(order);
+        for (Order a : orderQueue) {
+            System.out.println(a);
         }
 
         // Task 2: Remove orders with status "completed"
