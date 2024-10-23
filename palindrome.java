@@ -5,7 +5,7 @@ public class palindrome
     {
         Scanner s=new Scanner(System.in);
         System.out.println("ENTER THE NUMBER");
-        int n=s.nextInt();
+        int n=s.nextInt(); 
         int rem,rev=0;
         int n1=n;
         while(n>0)
