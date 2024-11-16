@@ -1,9 +1,11 @@
 import java.util.*;
 public class parent
 {
-    protected String name ="DAVID";
-    void display()
+    protected String name="";
+    parent(String a)
     {
-        System.out.println("NAME IS : "+name);
+name=a;
     }
+    void display()
+    {}
 }

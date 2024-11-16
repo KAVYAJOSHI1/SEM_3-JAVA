@@ -1,13 +1,18 @@
 public class child extends parent
 {
+    child(String a)
+    {
+      super(a);
+    }
     void display()
     {
-        super.display();
+        System.out.println("NAME IS :"+name);
 
     }
     public static void main(String args[])
     {
-        child obj= new child();
+        parent obj;
+        obj= new child("kavya");
         obj.display();
     }
 }
