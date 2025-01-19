@@ -1,34 +1,48 @@
-# Java Programs - Semester 3
-A comprehensive collection of Java programs covering Core Java, threads, file handling, and more.
+# Java Programs - Semester 3 Repository
 
 ## Description
-This repository contains all the Java codes studied during Semester 3. The topics include:
-- Core Java concepts
-- Multithreading in Java
-- File handling in Java
-- Various algorithms and data structures implemented in Java
+This repository contains a collection of Java programs created during Semester 3. These programs demonstrate various Core Java concepts, including exception handling, multithreading, file handling, algorithms, and object-oriented programming (OOP).
+
+---
 
 ## Table of Contents
-- [Core Java Programs](#core-java-programs)
-- [Threading Programs](#threading-programs)
-- [File Handling Programs](#file-handling-programs)
+- [Folders](#folders)
+  - [Exceptions](#exceptions)
+  - [GLS](#gls)
+  - [TASKs](#tasks)
+  - [Constructor and Function Overloading](#constructor-and-function-overloading)
+- [Individual Java Programs](#individual-java-programs)
+- [How to Run](#how-to-run)
+- [Resources](#resources)
 
-- ## Core Java Programs
-Programs that cover basic Java syntax, control structures, OOP concepts (classes, inheritance, polymorphism), and collections.
+---
 
-- **HelloWorld.java:** Basic program to print "Hello, World!"
-- **InheritanceDemo.java:** Demonstrates single and multilevel inheritance.
-- **ArrayListExample.java:** Explores ArrayList operations.
+## Folders
 
-Folder: `/core-java`
+### Exceptions
+Contains programs related to Java exception handling. These programs demonstrate the use of `try`, `catch`, `throw`, and custom exceptions.
 
-## Threading Programs
-Programs that demonstrate Java's multithreading capabilities, including thread creation and synchronization.
+### GLS
+Folder content unspecified, possibly related to GLS concepts or practice programs.
 
-- **ThreadDemo.java:** Creates threads using the `Thread` class and `Runnable` interface.
-- **SynchronizedDemo.java:** Explains thread synchronization.
-- **ProducerConsumer.java:** Implements producer-consumer problem using threads.
+### TASKs
+Includes TASK 3, 4, 5, 6, and 7, which likely represent assignment-specific implementations or examples.
 
-Folder: `/threads`
+### Constructor and Function Overloading
+Programs demonstrating the usage of constructors and function/method overloading in Java.
 
+---
 
+## Individual Java Programs
+
+Here is a list of individual Java programs and their purpose:
+
+| File Name                 | Description                                    |
+|---------------------------|------------------------------------------------|
+| `Palindromestring.java`   | Checks if a string is a palindrome.           |
+| `abstractionclass.java`   | Demonstrates abstract classes and methods.    |
+| `array.java`              | Performs operations on arrays.                |
+| `binarysearch.java`       | Implements binary search algorithm.           |
+| `calculator.java`         | Basic calculator functionality.               |
+| `conditional.java`        | Demonstrates conditional statements in Java.  |
+| `date.java`               | Handles date-related operations.
